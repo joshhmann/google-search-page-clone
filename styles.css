@@ -1,0 +1,55 @@
+body {
+  font-size: 14px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: black;
+  display: block;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.topbox {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+.topboxother {
+  min-width: auto;
+}
+
+.topleftbox {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.toprightbox {
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+.gmail {
+  display: block;
+}
+
+.google {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discover {
+  text-align: center;
+}
+
+.misc {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#button {
+  -webkit-appearance: none;
+}
